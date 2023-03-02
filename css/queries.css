@@ -1,0 +1,212 @@
+@media (max-width: 34em) {
+  :root {
+    --fs-h1: 3.5rem;
+    --fs-h2: 2.6rem;
+    --fs-h3: 2rem;
+    --fs-h4: 1.3rem;
+    --fs-body: 1.125rem;
+    --fs-small: 1rem;
+  }
+
+  .section-hero {
+    height: 900px;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("/images/mobile/image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 2em 1.5em;
+  }
+
+  .logo {
+    height: 28px;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: block;
+  }
+
+  .title-intro {
+    line-height: 1.1;
+    padding: 3em 0 2.8em;
+  }
+
+  .arrow-down {
+    height: 150px;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+
+  .img-about-1 {
+    height: 450px;
+    width: 100%;
+    background-image: url("/images/desktop/image-transform.jpg");
+    grid-row: 1;
+  }
+
+  .img-about-2 {
+    height: 450px;
+    width: 100%;
+    background-image: url("/images/mobile/image-stand-out.jpg");
+  }
+
+  .title-about {
+    line-height: 1.2;
+  }
+
+  .desc-about {
+    line-height: 1.8;
+  }
+
+  .text-about-1,
+  .text-about-2 {
+    text-align: center;
+    align-items: center;
+    padding: 5em 4em 5em 4em;
+  }
+
+  .service {
+    grid-template-columns: 1fr;
+  }
+
+  .service-1 {
+    height: 800px;
+    background-image: url("/images/mobile/image-graphic-design.jpg");
+    background-size: cover;
+  }
+
+  .service-2 {
+    height: 800px;
+    background-image: url("/images/mobile/image-photography.jpg");
+    background-size: cover;
+  }
+
+  .text-service {
+    margin: 32em auto;
+  }
+
+  .section-testimonial {
+    padding: 5em 2em;
+  }
+
+  .testimonial-box {
+    flex-direction: column;
+    row-gap: 3em;
+    width: 350px;
+  }
+
+  .client-img {
+    margin-bottom: 1em;
+  }
+
+  .testi-client {
+    margin-bottom: 2em;
+  }
+
+  .project {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-1 {
+    height: 250px;
+    width: 100%;
+    background-image: url(/images/mobile/image-gallery-milkbottles.jpg);
+  }
+
+  .project-2 {
+    height: 250px;
+    width: 100%;
+    background-image: url(/images/mobile/image-gallery-orange.jpg);
+  }
+
+  .project-3 {
+    height: 250px;
+    width: 100%;
+    background-image: url(/images/mobile/image-gallery-cone.jpg);
+  }
+
+  .project-4 {
+    height: 250px;
+    width: 100%;
+    background-image: url(/images/mobile/image-gallery-sugar-cubes.jpg);
+  }
+}
+
+@media (max-width: 25em) {
+  :root {
+    --fs-h1: 2.6rem;
+    --fs-h2: 2.2rem;
+    --fs-h3: 1.5rem;
+    --fs-h4: 1.1rem;
+    --fs-body: 1rem;
+    --fs-small: 0.8rem;
+  }
+
+  .section-hero {
+    height: 369px;
+  }
+
+  .arrow-down {
+    height: 100px;
+  }
+
+  .title-intro {
+    padding: 2em 0 1.5em;
+  }
+
+  .img-about-1 {
+    height: 300px;
+  }
+
+  .img-about-2 {
+    height: 300px;
+  }
+
+  .text-about-1,
+  .text-about-2 {
+    text-align: center;
+    align-items: center;
+    padding: 5em 3em 3em 3em;
+  }
+
+  .service-1 {
+    height: 600px;
+    background-image: url("/images/mobile/image-graphic-design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .service-2 {
+    height: 600px;
+    background-image: url("/images/mobile/image-photography.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .text-service {
+    margin: 25.5em auto;
+  }
+
+  .desc-service-1,
+  .desc-service-2 {
+    padding: 0 1em;
+  }
+
+  .testimonial-box {
+    width: 300px;
+  }
+
+  .project-1,
+  .project-2,
+  .project-3,
+  .project-4 {
+    height: 200px;
+  }
+}
