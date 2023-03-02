@@ -122,6 +122,7 @@ h4 {
 
 .section-hero {
   background-image: url("/images/desktop/image-header.jpg");
+  background-position: center;
   background-size: contain;
   background-size: cover;
   width: 100%;
