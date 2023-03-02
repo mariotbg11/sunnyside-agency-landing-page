@@ -118,6 +118,12 @@ h4 {
   padding: 1em 1.5em;
   background-color: var(--clr-white);
   border-radius: 150px;
+  transition: 0.3s all;
+}
+
+.btn:hover {
+  background-color: hsl(198, 100%, 76%);
+  color: var(--clr-white);
 }
 
 .section-hero {
@@ -392,10 +398,24 @@ li {
   column-gap: 1.5em;
 }
 
+.btn-footer {
+  color: var(--clr-darkmoderatecyan);
+  transition: 0.3s all;
+}
+
+.btn-footer:hover {
+  color: var(--clr-white);
+}
+
 .icon {
   margin: 0;
   font-size: 24px;
   color: var(--clr-darkdstrcyan);
+  transition: 0.3s all;
+}
+
+.icon:hover {
+  color: var(--clr-white);
 }
 
 /* FOOTER */
